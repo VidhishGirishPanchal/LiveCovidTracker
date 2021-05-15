@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.uppertext {
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+}
+.livetext {
+  /* animation: bigsmall 4s ease-in-out infinite; */
+}
+@keyframes bigsmall {
+  0% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 30px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+.trackertext {
+}
+.card-small {
+  font-size: 80px;
+}
+li {
+  list-style-type: none;
+}
+.card_name {
+  font-size: 30px;
+}
+.span {
+  font-size: 10px;
+}
+.card {
+  height: 220px;
+  width: 370px;
+  text-align: center;
+  margin: 10px auto;
+}
+.card:hover {
+  height: 230px;
+  width: 400px;
+  transition: 0.5s;
+}
+.card_total {
+  font-size: 50px;
+  font-weight: bolder;
+  box-shadow: 5px 5px 25px 5px black;
+  /* text-shadow: 5px 5px 40px #000000; */
+}
+ul {
+  /* display: inline; */
+}
+/* CARD COLOURS */
+.card1 {
+  background-color: rgb(76, 79, 251);
+}
+.card2 {
+  background-color: rgb(111, 250, 46);
+}
+.card3 {
+  background-color: rgb(184, 187, 2);
+}
+.card4 {
+  background-color: rgb(255, 157, 0);
+}
+.card5 {
+  background-color: rgb(76, 79, 251);
+}
+.card6 {
+  background-color: rgb(198, 6, 231);
+}
